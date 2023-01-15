@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59D241A4296F4DBC004926CE /*  SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D241A3296F4DBC004926CE /*  SelectCurrency.swift */; };
+		59D241A6296FF3E7004926CE /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D241A5296FF3E7004926CE /* CurrencyIcon.swift */; };
+		59D241A829703BE0004926CE /* Currency_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D241A729703BE0004926CE /* Currency_.swift */; };
+		59D241AA29708CF2004926CE /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D241A929708CF2004926CE /* IconGrid.swift */; };
 		59F0C0F2296F22BF00AE8D21 /* ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0C0F1296F22BF00AE8D21 /* ConverterApp.swift */; };
 		59F0C0F4296F22BF00AE8D21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0C0F3296F22BF00AE8D21 /* ContentView.swift */; };
 		59F0C0F6296F22BF00AE8D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F0C0F5296F22BF00AE8D21 /* Assets.xcassets */; };
@@ -14,6 +18,8 @@
 		59F0C103296F22C000AE8D21 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0C102296F22C000AE8D21 /* ConverterTests.swift */; };
 		59F0C10D296F22C000AE8D21 /* ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0C10C296F22C000AE8D21 /* ConverterUITests.swift */; };
 		59F0C10F296F22C000AE8D21 /* ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0C10E296F22C000AE8D21 /* ConverterUITestsLaunchTests.swift */; };
+		59F0C11C296F394400AE8D21 /* Exchangeinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0C11B296F394400AE8D21 /* Exchangeinfo.swift */; };
+		59F0C11E296F3D0300AE8D21 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0C11D296F3D0300AE8D21 /* ExchangeRate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59D241A3296F4DBC004926CE /*  SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SelectCurrency.swift"; sourceTree = "<group>"; };
+		59D241A5296FF3E7004926CE /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
+		59D241A729703BE0004926CE /* Currency_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_.swift; sourceTree = "<group>"; };
+		59D241A929708CF2004926CE /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 		59F0C0EE296F22BF00AE8D21 /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F0C0F1296F22BF00AE8D21 /* ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterApp.swift; sourceTree = "<group>"; };
 		59F0C0F3296F22BF00AE8D21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		59F0C108296F22C000AE8D21 /* ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F0C10C296F22C000AE8D21 /* ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterUITests.swift; sourceTree = "<group>"; };
 		59F0C10E296F22C000AE8D21 /* ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59F0C11B296F394400AE8D21 /* Exchangeinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchangeinfo.swift; sourceTree = "<group>"; };
+		59F0C11D296F3D0300AE8D21 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,12 @@
 			children = (
 				59F0C0F1296F22BF00AE8D21 /* ConverterApp.swift */,
 				59F0C0F3296F22BF00AE8D21 /* ContentView.swift */,
+				59D241A3296F4DBC004926CE /*  SelectCurrency.swift */,
+				59D241A929708CF2004926CE /* IconGrid.swift */,
+				59D241A5296FF3E7004926CE /* CurrencyIcon.swift */,
+				59D241A729703BE0004926CE /* Currency_.swift */,
+				59F0C11B296F394400AE8D21 /* Exchangeinfo.swift */,
+				59F0C11D296F3D0300AE8D21 /* ExchangeRate.swift */,
 				59F0C0F5296F22BF00AE8D21 /* Assets.xcassets */,
 				59F0C0F7296F22BF00AE8D21 /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D241AA29708CF2004926CE /* IconGrid.swift in Sources */,
+				59F0C11E296F3D0300AE8D21 /* ExchangeRate.swift in Sources */,
 				59F0C0F4296F22BF00AE8D21 /* ContentView.swift in Sources */,
+				59D241A4296F4DBC004926CE /*  SelectCurrency.swift in Sources */,
+				59D241A829703BE0004926CE /* Currency_.swift in Sources */,
 				59F0C0F2296F22BF00AE8D21 /* ConverterApp.swift in Sources */,
+				59F0C11C296F394400AE8D21 /* Exchangeinfo.swift in Sources */,
+				59D241A6296FF3E7004926CE /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = A2CU9227DR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = A2CU9227DR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
